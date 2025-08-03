@@ -1,0 +1,14 @@
+
+p {color: rgb(26, 27, 28);}
+
+body { font-family: sans-serif; background: #4d76fb; padding: 2em; }
+
+h1,h2 { color: rgb(6, 24, 43); }
+
+img {
+    width: 300px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
