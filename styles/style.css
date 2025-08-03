@@ -1,14 +1,165 @@
+p {color: rgb(207, 221, 236);}
 
-p {color: rgb(26, 27, 28);}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #181a20;
+  color: #e0e3e8;
+  padding: 2em;
+  margin: 0;
+}
 
-body { font-family: sans-serif; background: #4d76fb; padding: 2em; }
-
-h1,h2 { color: rgb(6, 24, 43); }
+h1,h2 { color: #4d76fb; }
 
 img {
-    width: 300px;
+    width: 500px;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  background: #23263a;
+  border-radius: 16px;
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+}
+
+.info-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider {
+  width: 1px;
+  height: 180px;
+  background: #444;
+  margin: 0 2em;
+  border-radius: 2px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4d76fb;
+  margin-bottom: 1em;
+}
+
+.fullname {
+  margin: 0.5em 0 0.2em 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+  color: #a0a4b8;
+  font-size: 0.95em;
+}
+
+.info-right h3 {
+  margin-bottom: 0.7em;
+  font-size: 1.2em;
+  color: #4d76fb;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  align-items: flex-start;
+}
+
+.contact-list a {
+  color: #e0e3e8;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.contact-list a:hover {
+  color: #4d76fb;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.introduction {
+  border: 2px dotted #4d76fb;
+  border-radius: 16px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  background: #23263a;
+}
+
+.introduction h3 {
+  margin-top: 0;
+  color: #4d76fb;
+}
+
+.projects {
+  background: #23263a;
+  border-radius: 16px;
+  padding: 1.5em;
+}
+
+.projects h3 {
+  color: #4d76fb;
+  margin-top: 0;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+}
+
+.project-list li {
+  margin-bottom: 1em;
+}
+
+.project-list a {
+  color: #e0e3e8;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.project-list a:hover {
+  color: #4d76fb;
+}
+
+.project-desc {
+  display: block;
+  color: #a0a4b8;
+  font-size: 0.95em;
+  margin-top: 0.2em;
 }
 
